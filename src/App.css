@@ -35,11 +35,17 @@ main {
     padding-top: 60px;
 }
 
+/* WORKOUT RECORD STYLES */
+table {
+    width: 48vw;
+    border: 2px solid #dfdfe2;
+}
+
 /* ADD NEW WORKOUT STYLES */
 fieldset {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 48vw;
 }
 
 fieldset > input, fieldset > select {

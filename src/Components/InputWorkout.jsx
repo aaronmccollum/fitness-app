@@ -2,6 +2,7 @@ export default function InputWorkout() {
     return (
         <section>
             <h2>Add New Workout</h2>
+            <br></br>
             <form>
                 <fieldset>
                     <legend>Workout Details</legend>
