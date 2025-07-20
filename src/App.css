@@ -26,3 +26,26 @@ button {
 button:hover {
     background-color: #fed35b;
 }
+
+/* MAIN ELEMENT STYLES */
+main {
+    display: flex;
+    justify-content: space-around;
+    color: #dfdfe2;
+    padding-top: 60px;
+}
+
+/* ADD NEW WORKOUT STYLES */
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+fieldset > input, fieldset > select {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 20px;
+    color: #dfdfe2;
+    font-size: 1.05em;
+}

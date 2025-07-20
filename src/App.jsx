@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Header from './Components/Header'
+import InputWorkout from './Components/InputWorkout'
+import WorkoutRecords from './Components/WorkoutRecords'
 import './App.css'
 
 function App() {
@@ -8,7 +10,10 @@ function App() {
   return (
     <>
       <Header />
-      <h1>This is the main app</h1>
+      <main>
+        <WorkoutRecords />
+        <InputWorkout />
+      </main>
     </>
   )
 }
